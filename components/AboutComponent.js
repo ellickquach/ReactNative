@@ -52,6 +52,10 @@ class About extends Component {
         }
     }
 
+    static navigationOptions = {
+        title: 'About Us'
+    };
+
     render() {
         return(
             <ScrollView>
